@@ -1,0 +1,152 @@
+Encoding yang terdeteksi: Windows-1252
+
+Informasi Dataset:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 98 entries, 0 to 97
+Data columns (total 20 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   Rk               98 non-null     int64  
+ 1   Squad            98 non-null     object 
+ 2   Country          98 non-null     object 
+ 3   LgRk             98 non-null     int64  
+ 4   MP               98 non-null     int64  
+ 5   W                98 non-null     int64  
+ 6   D                98 non-null     int64  
+ 7   L                98 non-null     int64  
+ 8   GF               98 non-null     int64  
+ 9   GA               98 non-null     int64  
+ 10  GD               98 non-null     int64  
+ 11  Pts              98 non-null     int64  
+ 12  Pts/G            98 non-null     float64
+ 13  xG               98 non-null     float64
+ 14  xGA              98 non-null     float64
+ 15  xGD              98 non-null     float64
+ 16  xGD/90           98 non-null     float64
+ 17  Attendance       98 non-null     int64  
+ 18  Top Team Scorer  98 non-null     object 
+ 19  Goalkeeper       98 non-null     object 
+dtypes: float64(5), int64(11), object(4)
+memory usage: 15.4+ KB
+None
+
+5 Tim pertama dalam dataset:
+Manchester City (ENG) - Peringkat: 1
+Liverpool (ENG) - Peringkat: 2
+Bayern Munich (GER) - Peringkat: 1
+Paris S-G (FRA) - Peringkat: 1
+Real Madrid (ESP) - Peringkat: 1
+
+Analisis Statistik Liga:
+Total gol dicetak: 5132
+Rata-rata gol per tim: 52.4
+Tim dengan gol terbanyak: Manchester City (99 gol)
+Tim dengan pertahanan terbaik: Manchester City (26 kebobolan)
+Tim dengan poin tertinggi: Manchester City (93 poin)
+
+5 Tim dengan Selisih Gol Terbaik:
+1. Manchester City: 73
+2. Liverpool: 68
+3. Bayern Munich: 60
+4. Paris S-G: 54
+5. Inter: 52
+
+Peringkat Liga Berdasarkan Poin:
+1. Manchester City (93 Poin)
+2. Liverpool (92 Poin)
+3. Real Madrid (86 Poin)
+4. Milan (86 Poin)
+5. Paris S-G (86 Poin)
+6. Inter (84 Poin)
+7. Napoli (79 Poin)
+8. Bayern Munich (77 Poin)
+9. Chelsea (74 Poin)
+10. Barcelona (73 Poin)
+11. Atlético Madrid (71 Poin)
+12. Marseille (71 Poin)
+13. Tottenham (71 Poin)
+14. Juventus (70 Poin)
+15. Sevilla (70 Poin)
+16. Arsenal (69 Poin)
+17. Dortmund (69 Poin)
+18. Monaco (69 Poin)
+19. Nice (66 Poin)
+20. Rennes (66 Poin)
+21. Betis (65 Poin)
+22. Lazio (64 Poin)
+23. Leverkusen (64 Poin)
+24. Strasbourg (63 Poin)
+25. Roma (63 Poin)
+26. Real Sociedad (62 Poin)
+27. Fiorentina (62 Poin)
+28. Lens (62 Poin)
+29. Lyon (61 Poin)
+30. Atalanta (59 Poin)
+31. Villarreal (59 Poin)
+32. Manchester Utd (58 Poin)
+33. RB Leipzig (58 Poin)
+34. Union Berlin (57 Poin)
+35. West Ham (56 Poin)
+36. Athletic Club (55 Poin)
+37. Nantes (55 Poin)
+38. Lille (55 Poin)
+39. Freiburg (55 Poin)
+40. Hellas Verona (53 Poin)
+41. Leicester City (52 Poin)
+42. Köln (52 Poin)
+43. Wolves (51 Poin)
+44. Brighton (51 Poin)
+45. Torino (50 Poin)
+46. Sassuolo (50 Poin)
+47. Newcastle Utd (49 Poin)
+48. Valencia (48 Poin)
+49. Brest (48 Poin)
+50. Crystal Palace (48 Poin)
+51. Osasuna (47 Poin)
+52. Udinese (47 Poin)
+53. Mainz 05 (46 Poin)
+54. Hoffenheim (46 Poin)
+55. Bologna (46 Poin)
+56. Celta Vigo (46 Poin)
+57. Reims (46 Poin)
+58. Brentford (46 Poin)
+59. Aston Villa (45 Poin)
+60. M'Gladbach (45 Poin)
+61. Montpellier (43 Poin)
+62. Elche (42 Poin)
+63. Espanyol (42 Poin)
+64. Wolfsburg (42 Poin)
+65. Eint Frankfurt (42 Poin)
+66. Rayo Vallecano (42 Poin)
+67. Bochum (42 Poin)
+68. Angers (41 Poin)
+69. Empoli (41 Poin)
+70. Southampton (40 Poin)
+71. Everton (39 Poin)
+72. Cádiz (39 Poin)
+73. Getafe (39 Poin)
+74. Mallorca (39 Poin)
+75. Granada (38 Poin)
+76. Leeds United (38 Poin)
+77. Troyes (38 Poin)
+78. Augsburg (38 Poin)
+79. Spezia (36 Poin)
+80. Clermont Foot (36 Poin)
+81. Lorient (36 Poin)
+82. Sampdoria (36 Poin)
+83. Burnley (35 Poin)
+84. Levante (35 Poin)
+85. Hertha BSC (33 Poin)
+86. Stuttgart (33 Poin)
+87. Saint-Étienne (32 Poin)
+88. Alavés (31 Poin)
+89. Metz (31 Poin)
+90. Bordeaux (31 Poin)
+91. Salernitana (31 Poin)
+92. Cagliari (30 Poin)
+93. Genoa (28 Poin)
+94. Arminia (28 Poin)
+95. Venezia (27 Poin)
+96. Watford (23 Poin)
+97. Norwich City (22 Poin)
+98. Greuther Fürth (18 Poin)

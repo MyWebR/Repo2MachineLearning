@@ -1,0 +1,101 @@
+==================================================
+EKSPERIMEN 1: HANDLING MISSING VALUES
+==================================================
+
+Data Asli:
+    Age   Salary
+0  25.0  50000.0
+1  30.0      NaN
+2   NaN  60000.0
+3  35.0      NaN
+4  40.0  70000.0
+5   NaN  80000.0
+
+Setelah Imputasi Manual:
+    Age   Salary  Age_mean  Age_median  Salary_freq
+0  25.0  50000.0      25.0        25.0      50000.0
+1  30.0      NaN      30.0        30.0      50000.0
+2   NaN  60000.0      32.5        32.5      60000.0
+3  35.0      NaN      35.0        35.0      50000.0
+4  40.0  70000.0      40.0        40.0      70000.0
+5   NaN  80000.0      32.5        32.5      80000.0
+
+==================================================
+EKSPERIMEN 2: FEATURE SCALING MANUAL
+==================================================
+
+Data Asli:
+   Age  Salary
+0   25   50000
+1   30   60000
+2   35   70000
+3   40   80000
+4   45   90000
+5   50  100000
+
+Setelah Scaling Manual:
+   Age  Salary  Age_std  Salary_std  Age_norm  Salary_norm
+0   25   50000  -1.3363     -1.3363       0.0          0.0
+1   30   60000  -0.8018     -0.8018       0.2          0.2
+2   35   70000  -0.2673     -0.2673       0.4          0.4
+3   40   80000   0.2673      0.2673       0.6          0.6
+4   45   90000   0.8018      0.8018       0.8          0.8
+5   50  100000   1.3363      1.3363       1.0          1.0
+
+==================================================
+EKSPERIMEN 3: BINARY CLASSIFICATION EVALUATION MANUAL
+==================================================
+
+Confusion Matrix Manual:
+[[3 2]
+ [1 4]]
+
+Evaluasi Manual:
+Akurasi: 0.7000
+Presisi: 0.6667
+Recall: 0.8000
+F1-Score: 0.7273
+
+==================================================
+EKSPERIMEN 4: HANDLING IMBALANCED DATA MANUAL
+==================================================
+
+Distribusi Kelas Asli:
+Counter({np.int64(0): 90, np.int64(1): 10})
+
+Setelah Undersampling Manual:
+Counter({np.int64(0): 10, np.int64(1): 10})
+
+Setelah Oversampling Manual (Dengan Duplikasi):
+Counter({np.int64(0): 90, np.int64(1): 90})
+
+==================================================
+EKSPERIMEN 5: CROSS VALIDATION MANUAL
+==================================================
+
+Fold 1:
+Train indices: [5 0 7 2 9 4 3 6]
+Test indices: [8 1]
+Akurasi: 0.5000
+
+Fold 2:
+Train indices: [8 1 7 2 9 4 3 6]
+Test indices: [5 0]
+Akurasi: 1.0000
+
+Fold 3:
+Train indices: [8 1 5 0 9 4 3 6]
+Test indices: [7 2]
+Akurasi: 0.5000
+
+Fold 4:
+Train indices: [8 1 5 0 7 2 3 6]
+Test indices: [9 4]
+Akurasi: 0.5000
+
+Fold 5:
+Train indices: [8 1 5 0 7 2 9 4]
+Test indices: [3 6]
+Akurasi: 0.5000
+
+Rata-rata Akurasi 5-Fold CV: 0.6000
