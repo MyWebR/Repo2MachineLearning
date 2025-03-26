@@ -3,6 +3,8 @@
 ## Ringkasan
 Proyek ini menyediakan analisis komprehensif statistik tim sepakbola untuk musim 2021-2022, menunjukkan teknik pemrosesan data, visualisasi, dan machine learning menggunakan Python.
 
+## Hasil code dari minggu 3 dan 4 ada di dalam folder output
+
 ## Struktur Proyek
 
 ### 1. `minggu3.py` - Eksplorasi Data Tim Sepakbola
