@@ -127,4 +127,4 @@ output_file.close()
 print(f"\nHasil analisis telah disimpan di {output_file_path}")
 print("Visualisasi telah disimpan di direktori 'output/minggu_ke_3':")
 print("- distribusi_gol.png")
-print("- hubungan_gol_poin.png")wdadcawewaedawd
+print("- hubungan_gol_poin.png")

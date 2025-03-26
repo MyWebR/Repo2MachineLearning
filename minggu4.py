@@ -252,7 +252,6 @@ def main():
             print(f"\nRata-rata Akurasi {k}-Fold CV: {np.mean(accuracies):.4f}")
         
         finally:
-            # Restore stdout
             sys.stdout = original_stdout
     
     print(f"Output telah disimpan di: {output_file}")
