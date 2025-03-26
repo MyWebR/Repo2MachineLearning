@@ -56,23 +56,9 @@ Skrip ini mendemonstrasikan beberapa teknik pemrosesan data dan machine learning
    - Model regresi logistik sederhana
    - Menghitung dan merata-ratakan performa model di berbagai pembagian data
 
-## Persyaratan
-- Python 3.x
-- NumPy
-- Pandas
-- Matplotlib
-- Chardet
+   ## Referensi Data
 
-## Penggunaan
-1. Pastikan file `2021_2022_Football_Team_Stats.csv` berada di direktori yang sama
-2. Jalankan skrip menggunakan Python
-3. Periksa direktori `output` untuk file analisis dan visualisasi yang dihasilkan
+   Dataset yang digunakan dalam proyek ini berasal dari:
+   https://www.kaggle.com/datasets/vivovinco/20212022-football-team-stats?resource=download
 
-## Tujuan Pembelajaran
-- Teknik praproses data
-- Analisis statistik
-- Evaluasi model machine learning
-- Visualisasi data olahraga
-
-## Lisensi
-Proyek sumber terbuka untuk tujuan pendidikan
+   *Catatan: Beberapa data telah dimodifikasi untuk tujuan pembelajaran*
